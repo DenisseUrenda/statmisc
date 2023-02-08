@@ -1,0 +1,12 @@
+Package: statmisc
+Type: Package
+Title: Miscellaneous Statistic Functions
+Version: 0.1.0
+Author: Denisse Urenda Castañeda
+Maintainer: Denisse Urenda Castañeda <denisse.urenda@gmail.com>
+Description: statmisc contains miscellaneous statistics funcions which are not included in the base R. It contains summary statistics functions for grouped and ungrouped data as well as graphical functions.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
