@@ -11,7 +11,7 @@ library(devtools)
 install_github("DenisseUrenda/statmisc")
 library(statmisc)
 ```
-:warning: **Warning:** This package is not complete and will be constantly updated. Every time you use it, run the previous code to get the lastest updated version.
+***Warning:*** This package is not complete and will be constantly updated. Every time you use it, run the previous code to get the lastest updated version.
 
 Some functions like `mode()` and `range()` from base R will be overwrote. To use any of them, write
 ```
