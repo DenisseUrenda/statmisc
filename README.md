@@ -11,7 +11,7 @@ library(devtools)
 install_github("DenisseUrenda/statmisc")
 library(statmisc)
 ```
-***Warning:*** This package is not complete and will be constantly updated. Every time you use it, run the previous code to get the lastest updated version. If you experiences some issue updating the package make sure uninstall `statmisc` first using `remove.packages("statmisc")` and restart `R` by clicking in the Session menu at the top of the RStudio app or by pressing `Ctrl`+`Shift`+`F10` if you are in a Windows OS (`Command`+`Option`+`F10` on MacOS). You will not need to re-install devtools package again.
+***Warning:*** This package is not complete and will be constantly updated. Every time you use it, run the previous code to get the lastest updated version. If you experiences some issue updating the package make sure uninstall `statmisc` first using `remove.packages("statmisc")` and restart `R` by clicking in the Session menu at the top of the RStudio app or by pressing `Ctrl`+`Shift`+`F10` if you are in a Windows OS (`Command`+`Option`+`F10` on MacOS). You will not need to re-install the `devtools` package again.
 
 Some functions like `mode()` and `range()` from base R will be overwrote. To use any of them, write
 ```
@@ -40,5 +40,16 @@ You will get something similar to
 |24  | 1817 |Sheffield|     Hybrid |       1 |
 |25  | 1040 |Sheffield|    Compact |       0 |
 |26  | 1273 |     Kane|      Sedan |       1 |
+
+You can also find plotting functions like `freq.polygon()` or `pareto()` which will allow you to create polygon of frequencies and pareto charts like the ones below.
+
+```
+data("Applewood")
+
+par(mfrow = c(1,2), mar = c(5.1,5.1,3.1,0))
+freq.polygon(Applewood$Profit, xlab = "Profit", col = 2, lwd = 3, grid = F)
+pareto(table(Applewood$`Vehicle-Type`), xlab = "Vehicle Type")
+```
+![freq-pareto-charts](/Image/freq-pareto-charts.jpeg "Polygon of frequencies and pareto chart")
 
 **Have fun learning statistics and `R`!**
