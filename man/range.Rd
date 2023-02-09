@@ -40,7 +40,7 @@ logical value indicating whether \code{NA} values must be removed before calcula
 }
 \examples{
 x = rnorm(100)
-mode(x)
-diff(range(x))
+statmisc::range(x)
+diff(base::range(x))
 }
 
