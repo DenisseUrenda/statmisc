@@ -5,7 +5,7 @@ mode = function(x, na.rm = FALSE){
   t = table(x)
   m = max(t)
   res = names(which(t == m))
-  if(length(res) == 0) return(NULL)
+  if(length(res) == length(x)) return(NULL)
   if(is.numeric(x)) res = as.numeric(res)
   return(res)
 }
