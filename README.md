@@ -11,7 +11,7 @@ library(devtools)
 install_github("DenisseUrenda/statmisc")
 library(statmisc)
 ```
-***Warning:*** This package is not complete and will be constantly updated. Every time you use it, run the previous code to get the lastest updated version.
+***Warning:*** This package is not complete and will be constantly updated. Every time you use it, run the previous code to get the lastest updated version. If you experiences some issue updating the package make sure uninstall `statmisc` first using `remove.packages("statmisc")` and restart `R` by clicking in the Session menu at the top of the RStudio app or by pressing `Ctrl`+`Shift`+`F10` if you are in a Windows OS (`Command`+`Option`+`F10` on MacOS). You will not need to re-install devtools package again.
 
 Some functions like `mode()` and `range()` from base R will be overwrote. To use any of them, write
 ```
