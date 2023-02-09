@@ -13,12 +13,14 @@ library(statmisc)
 ```
 ***Warning:*** This package is not complete and will be constantly updated. Every time you use it, run the previous code to get the lastest updated version. If you experiences some issue updating the package make sure uninstall `statmisc` first using `remove.packages("statmisc")` and restart `R` by clicking in the Session menu at the top of the RStudio app or by pressing `Ctrl`+`Shift`+`F10` if you are in a Windows OS (`Command`+`Option`+`F10` on MacOS). You will not need to re-install the `devtools` package again.
 
-Some functions like `mode()` and `range()` from base R will be overwrote. To use any of them, write
+Some functions like `mode` and `range` from base R will be overwritten. To use any of them, write
 ```
 base::mode(x)   # Storage mode of the R object x
 base::range(x)  # Same as c(min(x),max(x))
 ```
-In contrast to the `mode` and `range` from base R, these two functions will compute the statistical mode (number(s) or category(s) with highest frequency) and the actual range of data $r = x_{(n)} - x_{(1)}$.
+The safest way to access to any of these functions is by calling the package, though. Just to prevent incorrect calculations. So, I encorage you to use `statmisc::mode` instead of just `mode` or `statmisc::range` intead of `range`.
+
+In contrast to the `mode` and `range` from base R, these two functions will compute the statistical mode (number(s) or category(s) with highest frequency) and the actual range of data $r = x_{(n)} - x_{(1)}$. You can also find statistics for grouped data prefixed with a g for **g**rouped. For example, `gmean`, `gmedian`, and `gmode` are some of the functions you will find.
 
 You can also access to the data available in the package by typing
 ```
