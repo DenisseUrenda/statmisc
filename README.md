@@ -41,4 +41,4 @@ You will get something similar to
 |25  | 1040 |Sheffield|    Compact |       0 |
 |26  | 1273 |     Kane|      Sedan |       1 |
 
-Have fun learning statistics and `R`.
+**Have fun learning statistics and `R`!**
