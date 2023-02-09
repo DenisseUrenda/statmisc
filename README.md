@@ -26,7 +26,7 @@ You can also access to the data available in the package by typing
 ```
 data(package = "statmisc")
 ```
-Some of the data is borrowed from books like [Douglas Lind](https://www.amazon.com/-/es/Douglas-Lind/dp/1260187500/ref=d_pd_sbs_sccl_1_4/143-7816604-4992163?pd_rd_w=3pWa9&content-id=amzn1.sym.3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_p=3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_r=T9R0G61RHJ5HPHDE7A19&pd_rd_wg=YYH4G&pd_rd_r=b6313bad-697b-4224-a190-b7e7381440d9&pd_rd_i=1260187500&psc=1), [William Navidi](https://www.amazon.com/-/es/William-Navidi-dp-1259717607/dp/1259717607/ref=dp_ob_image_bk), [Wayne Daniel](https://www.amazon.com.mx/Biostatistics-Foundation-Analysis-Health-Sciences/dp/1118302796).
+Some of the data are borrowed from books like the ones written by [Douglas Lind](https://www.amazon.com/-/es/Douglas-Lind/dp/1260187500/ref=d_pd_sbs_sccl_1_4/143-7816604-4992163?pd_rd_w=3pWa9&content-id=amzn1.sym.3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_p=3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_r=T9R0G61RHJ5HPHDE7A19&pd_rd_wg=YYH4G&pd_rd_r=b6313bad-697b-4224-a190-b7e7381440d9&pd_rd_i=1260187500&psc=1), [William Navidi](https://www.amazon.com/-/es/William-Navidi-dp-1259717607/dp/1259717607/ref=dp_ob_image_bk), and [Wayne Daniel](https://www.amazon.com.mx/Biostatistics-Foundation-Analysis-Health-Sciences/dp/1118302796).
 
 To access and have a quick look of an specific dataset, you can run
 ```
