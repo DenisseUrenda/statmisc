@@ -50,6 +50,6 @@ par(mfrow = c(1,2), mar = c(5.1,5.1,3.1,0))
 freq.polygon(Applewood$Profit, xlab = "Profit", col = 2, lwd = 3, grid = F)
 pareto(table(Applewood$`Vehicle-Type`), xlab = "Vehicle Type")
 ```
-![freq-pareto-charts](/Image/freq-pareto-charts.jpeg "Polygon of frequencies and pareto chart")
+![freq-pareto-charts](https://github.com/DenisseUrenda/DS-Portfolio/blob/main/Image/freq-pareto-charts.jpeg "Polygon of frequencies and pareto chart")
 
 **Have fun learning statistics and `R`!**
